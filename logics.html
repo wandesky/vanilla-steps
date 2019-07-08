@@ -1,0 +1,39 @@
+<html>
+    <body>
+        <p>Logics</p>
+
+        <script>
+            //Part One
+            // var age;
+            // age = prompt("Enter age");
+            // if (!(age >= 14 && age <= 90)){
+            //     alert("out of range");
+            // }
+            // else{
+            //     alert("maturity");
+            // }
+
+            //Part Two
+            var username;
+            var password;
+
+            username = prompt('Who\'s there?');
+            if (username == "Admin"){
+                password = prompt("Password?");
+                if(password == "TheMaster"){
+                    alert('Welcome!');
+                }
+                else{
+                    alert("Wrong password")
+                }
+            }
+            else if(username == "" || username == null){
+                alert("Canceled.")
+            }
+            else{
+                alert("I don't know you")
+            }
+        </script>
+
+    </body>
+</html>
